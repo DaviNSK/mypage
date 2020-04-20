@@ -8,7 +8,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 235vh;
+    height: 245vh;
   }
 
   h3 {
@@ -78,7 +78,7 @@ export const Container = styled.div`
 
     @media (min-width: 320px) and (max-width: 768px) {
       width: 100%;
-      margin-top: 30px;
+      margin-top: 35px;
     }
 
     h1 {

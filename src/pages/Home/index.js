@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import { Icon } from "antd";
 
 import { Container } from "./styles";
 import avatar from "../../assets/avatar-dc.jpg";
@@ -10,7 +9,6 @@ export default class Home extends Component {
       {
         name: "Davi cardoso",
         infos: "20 years, Brazilian;",
-        icon: "environment",
         location: "Lisbon, Portugal.",
       },
     ],
@@ -35,10 +33,7 @@ export default class Home extends Component {
             <img src={avatar} alt="avatar" />
             <p className="p1">{element.name}</p>
             <p className="p2">{element.infos}</p>
-            <div className="location">
-              <Icon className="icon" type={element.icon} />
-              <p>{element.location}</p>
-            </div>
+            <p className="p2">{element.location}</p>
           </div>
         ))}
 
