@@ -8,8 +8,21 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 225vh;
+    height: 235vh;
   }
+
+  h3 {
+      color: #ff6a5c;
+      font-size: 24px !important;
+      font-family: monospace;
+      margin-top: 10px;
+      font-weight: bold;
+
+      @media (min-width: 320px) and (max-width: 768px) {
+       font-size: 15px !important;
+    }
+
+    }
 
   .title-project {
     width: 100%;
@@ -115,18 +128,6 @@ export const Container = styled.div`
     }
     }
 
-    h3 {
-      color: #ff6a5c;
-      font-size: 24px;
-      font-family: monospace;
-      margin-top: 10px;
-      font-weight: bold;
-
-      @media (min-width: 320px) and (max-width: 768px) {
-       font-size: 8px;
-    }
-
-    }
   }
 
   .divider {
@@ -136,10 +137,6 @@ export const Container = styled.div`
     margin-top: 20px;
     justify-content: center;
     align-items: center;
-
-    @media (min-width: 320px) and (max-width: 768px) {
-      height: 150px;
-    }
 
     h1 {
       color: #fff;

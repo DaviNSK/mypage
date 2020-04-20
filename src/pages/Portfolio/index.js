@@ -44,23 +44,23 @@ export default class Portfolio extends Component {
           <div className="pictures">
             <Carousel autoplay>
               <div>
-                <h3 style={{fontSize: 26, color: '#ff6a5c' }}>Login page</h3>
+                <h3 style={{ }}>Login page</h3>
                 <img src={loginn} alt="lay" />
               </div>
               <div>
-                <h3 style={{fontSize: 26, color: '#ff6a5c' }}>Create user page</h3>
+                <h3>Create user page</h3>
                 <img src={createe} alt="lay" />
               </div>
-              <div>
-                <h3 style={{fontSize: 26, color: '#ff6a5c' }}>Control Daily page</h3>
+              <div> 
+                <h3>Control Daily page</h3>
                 <img src={control} alt="lay" />
               </div>
               <div>
-                <h3 style={{fontSize: 26, color: '#ff6a5c' }}>Vouchers page</h3>
+                <h3>Vouchers page</h3>
                 <img src={val} alt="lay" />
               </div>
               <div>
-                <h3 style={{fontSize: 26, color: '#ff6a5c' }}>Shop, and ordering area</h3>
+                <h3>Shop, and ordering area</h3>
                 <img src={shop} alt="lay" />
               </div>
             </Carousel>
@@ -82,19 +82,19 @@ export default class Portfolio extends Component {
           <div className="pictures">
             <Carousel autoplay>
               <div>
-                <h3 style={{fontSize: 26, color: '#ff6a5c' }}>Login page</h3>
+                <h3>Login page</h3>
                 <img src={login} alt="lay" />
               </div>
               <div>
-                <h3 style={{fontSize: 26, color: '#ff6a5c' }}>Create user page</h3>
+                <h3>Create user page</h3>
                 <img src={create} alt="lay" />
               </div>
               <div>
-                <h3 style={{fontSize: 26, color: '#ff6a5c' }}>Control Daily page</h3>
+                <h3>Control Daily page</h3>
                 <img src={layout} alt="lay" />
               </div>
               <div>
-                <h3 style={{fontSize: 26, color: '#ff6a5c' }}>Vouchers page</h3>
+                <h3>Vouchers page</h3>
                 <img src={what} alt="lay" />
               </div>
             </Carousel>
