@@ -8,7 +8,7 @@ export const Container = styled.div`
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 210vh;
+    height: 225vh;
   }
 
   .title-project {
@@ -38,7 +38,7 @@ export const Container = styled.div`
       font-family: monospace;
 
       @media (min-width: 320px) and (max-width: 768px) {
-       font-size: 15px;
+       font-size: 13px;
     }
     }
   }
@@ -65,7 +65,7 @@ export const Container = styled.div`
 
     @media (min-width: 320px) and (max-width: 768px) {
       width: 100%;
-      margin-top: 20px;
+      margin-top: 30px;
     }
 
     h1 {
