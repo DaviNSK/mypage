@@ -12,7 +12,7 @@ export const Container = styled.div`
   }
 
   h3 {
-      color: #ff6a5c;
+      color: #14672f;
       font-size: 24px !important;
       font-family: monospace;
       margin-top: 10px;
@@ -35,7 +35,7 @@ export const Container = styled.div`
 
 
     h1 {
-      color: #fff;
+      color: #14672f;
       font-size: 50px;
       font-family: monospace;
       padding-left: 10px;
@@ -46,7 +46,7 @@ export const Container = styled.div`
     }
 
     p {
-      color: #000;
+      color: #9eacb5;
       font-size: 23px;
       font-family: monospace;
 
@@ -69,12 +69,12 @@ export const Container = styled.div`
 
   .description {
     width: 30%;
-    height: 350px;
+    height: 90px;
     display: flex;
     flex-direction: column;
     padding: 20px 50px;
     margin-top: 10px;
-    border-left: 7px solid #ff6a5c;
+    border-left: 7px solid #14672f;
 
     @media (min-width: 320px) and (max-width: 768px) {
       width: 100%;
@@ -82,7 +82,7 @@ export const Container = styled.div`
     }
 
     h1 {
-      color: #ff6a5c;
+      color: #14672f;
       font-size: 35px;
       font-family: monospace;
       font-weight: bold;
@@ -93,7 +93,7 @@ export const Container = styled.div`
     }
 
     p {
-      color: #000;
+      color: #9eacb5;
       font-size: 23px;
       font-family: monospace;
       margin-top: 10px;
@@ -139,7 +139,7 @@ export const Container = styled.div`
     align-items: center;
 
     h1 {
-      color: #fff;
+      color: #9eacb5;
       font-size: 33px;
       font-family: monospace;
 

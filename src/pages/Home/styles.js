@@ -34,7 +34,7 @@ export const Container = styled.div`
     }
 
     .p1 {
-      color: #000;
+      color: #14672f;
       font-size: 30px;
       font-family: monospace;
       margin-top: 10px;
@@ -46,7 +46,7 @@ export const Container = styled.div`
   }
 
   .p2 {
-    color: #000;
+    color: #14672f;
     font-family: monospace;
     font-size: 25px;
 
@@ -68,7 +68,7 @@ export const Container = styled.div`
     }
 
     p {
-      color: #000;
+      color: #14672f;
       font-family: monospace;
       font-size: 25px;
       margin-left: 14px;
@@ -109,7 +109,7 @@ export const Container = styled.div`
     justify-content: center;
 
     h1 {
-      color: #000;
+      color: #14672f;
       font-family: monospace;
       font-weight: bold;
       font-size: 50px;
@@ -152,7 +152,7 @@ export const Container = styled.div`
     }
 
     h1 {
-      color: #000;
+      color: #14672f;
       font-size: 30px;
       font-family: monospace;
 

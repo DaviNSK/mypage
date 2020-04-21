@@ -9,7 +9,7 @@ const GlobalStyle = createGlobalStyle`
  }
 
  body {
-  background: #383838;
+  background: #010014;
    text-rendering: optimizeLegibility !important;
  }
 `;

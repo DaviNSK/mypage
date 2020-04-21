@@ -6,7 +6,7 @@ export const Container = styled.div`
   .head {
     width: 100%;
     height: 90px;
-    background: rgba(0, 0, 0, 0.9);
+    background: #010014;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -63,7 +63,7 @@ export const Container = styled.div`
       transition: all 0.2s ease-in;
 
       &:hover {
-        color: #ff6a5c;
+        color: #14672f;
       }
 
       @media (min-width: 320px) and (max-width: 768px) {

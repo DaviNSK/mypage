@@ -38,9 +38,10 @@ export const Container = styled.div`
     justify-content: center;
 
     h1 {
-      color: #fff;
+      color: #14672f;
       font-size: 40px;
       font-family: monospace;
+      font-weight: bold;
 
       @media (min-width: 320px) and (max-width: 768px) {
       font-size: 30px;
@@ -56,7 +57,7 @@ export const Container = styled.div`
 
     img {
       width: 40px;
-      height: 30px;
+      height: 33px;
 
       @media (min-width: 320px) and (max-width: 768px) {
       height: 20px;
@@ -111,7 +112,7 @@ export const Container = styled.div`
 
   .icon {
     font-size: 45px;
-    color: #ff6a5c;
+    color: #9eacb5;
     transition: all 0.2s ease-in;
 
     @media (min-width: 320px) and (max-width: 768px) {
